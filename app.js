@@ -11,7 +11,7 @@ var routes = require('./routes/index');
 var app = express();
 
 // database setup
-mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://aaronsmongodbrw:xSJEozk4Tmg74Q1iyXMN0sEgr0PfegnIrDz5xq8N5UvmwlsFSSqGR0QMAx1nw5hdiENdcSQbHHK7t4ZQY0wf6g==@aaronsmongodbrw.documents.azure.com:10250/test?ssl=true');
+mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://testuser:pass@ds117919.mlab.com:17919/heroku_n54n38l8');
 var connection = mongoose.connection;
 connection.on('error', console.error.bind(console, 'connection error:'));
 connection.on('connected', function() {

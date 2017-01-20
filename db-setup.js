@@ -1,6 +1,6 @@
 var mongo = require('mongodb').MongoClient;
 
-var dbConnectionUrl = 'mongodb://aaronsmongodbrw:xSJEozk4Tmg74Q1iyXMN0sEgr0PfegnIrDz5xq8N5UvmwlsFSSqGR0QMAx1nw5hdiENdcSQbHHK7t4ZQY0wf6g==@aaronsmongodbrw.documents.azure.com:10250/test?ssl=true';
+var dbConnectionUrl = 'mongodb://testuser:pass@ds117919.mlab.com:17919/heroku_n54n38l8';
 
 var collections = {};
 
